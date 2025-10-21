@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Art Display</title>
+  <style>
+    body { font-family: Arial; background: #f0f0f0; padding: 20px; }
+    .art-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+    .art { background: white; padding: 10px; border-radius: 8px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    img { max-width: 100%; border-radius: 5px; }
+    a { text-decoration: none; color: #007acc; display: block; margin-top: 5px; }
+  </style>
+</head>
+<body>
+  <h2>Available Art Pieces</h2>
+  <div class="art-grid">
+    <div class="art">
+      <img src="art1.jpg" alt="Starry Night">
+      <strong>Vincent van Gogh</strong>
+      <a href="art1.html">View Details</a>
+    </div>
+    <div class="art">
+      <img src="art2.jpg" alt="Mona Lisa">
+      <strong>Leonardo da Vinci</strong>
+      <a href="art2.html">View Details</a>
+    </div>
+    <div class="art">
+      <img src="art3.jpg" alt="The Persistence of Memory">
+      <strong>Salvador Dalí</strong>
+      <a href="art3.html">View Details</a>
+    </div>
+    <div class="art">
+      <img src="art4.jpg" alt="The Scream">
+      <strong>Edvard Munch</strong>
+      <a href="art4.html">View Details</a>
+    </div>
+    <div class="art">
+      <img src="art5.jpg" alt="Girl with a Pearl Earring">
+      <strong>Johannes Vermeer</strong>
+      <a href="art5.html">View Details</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -14,3 +14,4 @@ Write-Host "Frontend will be available at: http://localhost:3000" -ForegroundCol
 Write-Host ""
 Write-Host "Press any key to continue..." -ForegroundColor White
 $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+

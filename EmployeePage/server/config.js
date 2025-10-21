@@ -6,3 +6,4 @@ module.exports = {
   // External API URL (used when dataSource is 'external')
   externalApiUrl: 'https://jsonplaceholder.typicode.com/users'
 };
+
