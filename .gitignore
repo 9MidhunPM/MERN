@@ -16,13 +16,8 @@ yarn-error.log*
 
 # Environment files
 .env
-.env.*
 
 # Build output
-dist/
-build/
-out/
-/public/build
 
 # Logs
 logs/
